@@ -14,6 +14,8 @@ if raw_origins.strip() == "*":
     cors_allow_credentials = False
 else:
     cors_origins = [origin.strip() for origin in raw_origins.split(",") if origin.strip()]
+    if "https://ask-my-video.vercel.app" not in cors_origins:
+        cors_origins.append("https://ask-my-video.vercel.app")
     cors_allow_credentials = True
 
 app.add_middleware(
