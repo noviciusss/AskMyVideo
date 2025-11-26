@@ -4,7 +4,7 @@ from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 
-from .rag import ask_question, prepare_video_context
+from rag import ask_question, prepare_video_context
 
 app = FastAPI()
 
