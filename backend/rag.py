@@ -4,7 +4,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 from youtube_transcript_api import YouTubeTranscriptApi, TranscriptsDisabled
-from langchain.text_splitter import RecursiveCharacterTextSplitter
+from langchain_text_splitters import RecursiveCharacterTextSplitter
 from langchain_huggingface import HuggingFaceEmbeddings
 from langchain_community.vectorstores import FAISS
 from langchain_google_genai import ChatGoogleGenerativeAI
