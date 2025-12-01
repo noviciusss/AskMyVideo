@@ -12,7 +12,7 @@ This package is a lightweight Next.js 16 UI that talks to the FastAPI backend at
 ### Running Locally
 
 ```bash
-cd frontend/pdf_chatbot
+cd frontend/youtube_chat
 npm install
 npm run dev
 ```
